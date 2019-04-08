@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test_Login_Social(failed)">
+    <classes>
+      <class name="pom.xamplifylive.xamplifylive.Login_Social">
+        <methods>
+          <include name="general_login"/>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- pom.xamplifylive.xamplifylive.Login_Social -->
+    </classes>
+  </test> <!-- Test_Login_Social(failed) -->
+  <test thread-count="5" name="Test_Managecontent(failed)">
+    <classes>
+      <class name="pom.xamplifylive.xamplifylive.ManageContent">
+        <methods>
+          <include name="ManageContent_MouseHover"/>
+          <include name="Searchcontent_Preview"/>
+        </methods>
+      </class> <!-- pom.xamplifylive.xamplifylive.ManageContent -->
+    </classes>
+  </test> <!-- Test_Managecontent(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+<test name="Test_Login_Social">
+  <classes>
+    <class name="pom.xamplifylive.xamplifylive.Login_Social" />
+  </classes>
+</test>    
+
+<!-- <test name="EmailTemplate">
+  <classes>
+    <class name="pom.xamplifylive.xamplifylive.EmailTemplate" />
+  </classes>
+</test>    --> 
+
+<!--  <test name="Test_Managevideos">
+  <classes>
+    <class name="pom.xamplifylive.xamplifylive.Managevideos" />
+  </classes>
+</test>  -->
+
+<test name="Test_Managecontent">
+  <classes>
+    <class name="pom.xamplifylive.xamplifylive.ManageContent" />
+  </classes>
+</test> 
+ <!-- <test name="Test_uploadvideo">
+  <classes>
+    <class name="pom.xamplifylive.xamplifylive.UploadContent" />
+  </classes>
+</test>   -->
+ <!-- <test name="Test_uploadvideo">
+  <classes>
+    <class name="pom.xamplifylive.xamplifylive.webcam" />
+  </classes>
+</test>  -->
+</suite> 
